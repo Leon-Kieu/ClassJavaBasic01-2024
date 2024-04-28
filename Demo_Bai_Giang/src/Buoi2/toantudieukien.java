@@ -1,18 +1,11 @@
 package Buoi2;
 
-public class Bien {
+public class toantudieukien {
     public static void main(String[] args) {
         // Khai báo biến
-        String ten;
-        float chieuCao;
-        int tuoi;
-        //Truyền dữ liệu vào biến;
-        ten = "Leon";
-        chieuCao = 1.7F;
-        tuoi = 21;
-        // In thông tin biến ra màn hình
-        System.out.println("Tên của bạn: "+ten);
-        System.out.println("Chiều cao của bạn: "+chieuCao);
-        System.out.println("Tuổi của bạn: "+tuoi);
+        int a = 1;
+        int b = 3;
+        int c = a>b?6:9;
+        System.out.println(c);
     }
 }
